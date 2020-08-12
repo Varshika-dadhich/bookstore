@@ -1,0 +1,259 @@
+.img{
+    position: absolute;
+}
+h1{
+    font-family: cursive;
+}
+#form {
+background-image: url("https://c.pxhere.com/images/09/d0/f47363629bbdb01a4d6b84ea8f0a-1453725.jpg!d");
+    min-height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+form {
+      text-align: center;
+    position: absolute;
+    margin-top: 10%;
+margin-left: 40%;
+    max-width: 300px;
+    padding: 16px;
+background-color: transparent; 
+color: aliceblue;  
+font-size: large;
+}
+a{
+    color: black;
+}
+  hr{
+      size: 10px;
+  }
+  .navbar{
+      background-color:bisque;
+    }
+  .img{
+      margin-left: 10px;
+  }
+ .links{
+     font-size: x-large;
+     float: right;
+     margin-left: 300px;
+     margin-right: 80px;
+     margin-top: 100px;
+  border: 2px solid black;
+    color: black;
+      }
+      .subnav{
+          float: right;
+          color: black;
+      }
+    /*  .subnav .subnavbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: black;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      .subnav-content {
+        display: none;
+        position: absolute;
+        left: 0;
+        background-color: red;
+        width: 100%;
+        z-index: 1;
+        margin-top: 20px;
+    color: black;  
+    }*/
+.main{
+    display: flex;
+    color: #000;
+}
+a{
+    margin-top: 20px;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+ }
+ a:hover{
+     background-color: #000;
+     color: white;
+ }
+.side_links{
+    margin-left: 100px;
+
+ color: black;}
+.flex{
+    display: flex;
+}
+#one,#sec,#thr{
+    padding: 50px;
+    margin-left:130px ;
+    border:1px solid black;
+    text-align: center;
+} 
+.flex12{
+    display: flex;
+    margin-top: 30px; 
+}
+.discount{
+    border:1px solid black;
+    margin-left: 300px;
+    text-align: center;
+   background-color: burlywood;
+   padding: 10px;
+}
+.frd{
+  border:1px solid black; 
+    margin-left: 10px;
+}
+.side{
+    display: flex;
+    flex-direction: row;
+}
+.best{
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: left;
+    background-color: lemonchiffon;
+ 
+}
+.bestpic{
+    margin-left: 130px;
+}
+.heading{
+    margin-left: 20px;
+    background-color:lightpink;
+}
+.flex13{
+    display: flex;
+    float: left;
+}
+.flex14{
+    display: flex;
+  float: right;
+}
+#one1,#sec2,#thr3,#one4,#sec5,#thr6{
+    display: flex;
+    flex-direction: row;
+
+    margin-left:100px ;
+    border:1px solid black;
+    text-align: center;
+} 
+
+.booksell{
+ color: white;
+border: 1px solid black;
+background-image: url("https://images.unsplash.com/photo-1533899114961-3aa0579cd5b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+background-size: cover;
+height: 250px;
+width: 70%;
+margin-left: 250px;
+text-align: center;
+}
+.desc{
+   margin-left: 0px;
+    text-align: center;
+   padding: 10px;
+text-align: center;
+}
+  .categories{
+display: flex;
+  }
+  .cat:hover{
+    -ms-transform: scale(1.0); /* IE 9 */
+    -webkit-transform: scale(1.0); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .cat{
+color: white;      border: 1px solid black;
+      height: 200px;
+      width: 250px;
+      margin-left: 80px;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bolder;
+      background-color: indigo;
+  }
+  .icons{
+      display: flex;
+  }
+  .contact{
+    display: flex;   
+    margin-bottom: 10px;
+  }
+  label{
+      display: none;
+      float: right;
+  }
+  .list{
+    display: none;
+    float: right;
+  }
+  
+  @media only screen and (max-width:768px)  {
+      label{
+          display: block;
+          cursor: pointer;
+      }
+      .ul{
+          display: list-item;
+      }
+      .side_links{
+          display: none;
+      }
+  .links a {
+position: relative;   
+}
+   
+#form{
+    text-align: center;
+}
+#one,#sec,#thr{
+   margin-left: 30px;
+}
+
+.discount{
+     margin-left: 30px;
+  }
+.frd{
+  border:1px solid black; 
+    margin-left: 10px;
+}
+.categories{
+    display: block;
+}
+.cat{
+    margin-left: 200px;
+}
+.bestpic{
+    margin-left: 50px;
+}
+.best{
+font-size: 30px;
+    
+}
+p{
+    padding-top: 15px;
+}
+.contact{
+    display: block;
+}
+.links{
+    font-size: 12px;
+    width: 100%;
+}
+a{
+    margin-left:0px;
+}
+}
