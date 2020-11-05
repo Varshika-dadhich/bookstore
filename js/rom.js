@@ -44,5 +44,3 @@ document.getElementById('users').innerHTML = output;
 }}
     xhr.send();
 }
-
-

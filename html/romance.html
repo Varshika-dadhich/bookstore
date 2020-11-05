@@ -136,7 +136,7 @@ a{
     </style>
     
     </head>
-    <body>
+    <body > 
         <nav class="navbar">
             <hr>
             <label for="toggle">&#9776</label>
@@ -149,25 +149,27 @@ a{
             <div class="img"><img src="../imgs/logo.jpg" height="130px" width="150px">
             </div> <div class="links"> <a href="../index.html"style="background-color: black;color: white;" >HOME</a>
             <a href="about.html" >ABOUT</a>
-        
+  
         <a href="">CONTACT</a>
-        <a href="">SHOP</a>
         
-         </div>
+        <a href="">SHOP</a>
+     
+    </div>
          
         <div class="side_links"> <img src="../imgs/mybook.svg" height="30px" width="30px"><a href="">My Books</a>
         <img src="../imgs/wish.svg" height="30px" width="30px"><a href="">Wishlist</a>
         <img src="../imgs/cart.svg" height="30px" width="30px"><a href="">My Cart</a>
-        <br>
+        <br> <br>
+        <br><br><br>
+        <input type="text" id="Search" placeholder="search here..." ><button type="submit">Search</i></button>  
         </div><br><br>
-        </div>
-        
+      </div>
         <hr>
-        
+     
         </nav>
         
-
-    <button id="showmore">click here</button>
+    
+    <button id="showmore" onload="loadusers();">click here</button>
     <div id="text"></div>
     <div class="user">
     <div id="users0"></div>
@@ -198,6 +200,10 @@ a{
 
 
 
+</div>
+
+</div>
+<ul id="charactersList"></ul>
 </div>
 
     <script src="../js/rom.js"></script>
